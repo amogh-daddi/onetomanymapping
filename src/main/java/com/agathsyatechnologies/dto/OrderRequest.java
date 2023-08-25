@@ -20,4 +20,11 @@ public class OrderRequest {
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
+
+    public OrderRequest(Customer customer) {
+        this.customer = customer;
+    }
+
+    public OrderRequest() {
+    }
 }
